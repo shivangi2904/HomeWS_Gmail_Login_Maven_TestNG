@@ -14,7 +14,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.source>1.7</maven.compiler.source> 
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
@@ -33,7 +33,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.0.0-beta3</version>
-    <scope>test</scope>
+    <scope>compile</scope>
    </dependency>
     <dependency>
       <groupId>junit</groupId>
