@@ -1,8 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: GmailLogin_All_TestCase.GmailLogin_Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.118 s <<< FAILURE! - in GmailLogin_All_TestCase.GmailLogin_Test
-LoginWithCorrectPhone_CorrecrPassword(GmailLogin_All_TestCase.GmailLogin_Test)  Time elapsed: 6.534 s  <<< FAILURE!
-java.lang.AssertionError: expected [https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward] but found [https://mail.google.com/mail/u/0/#inbox]
-	at GmailLogin_All_TestCase.GmailLogin_Test.LoginWithCorrectPhone_CorrecrPassword(GmailLogin_Test.java:101)
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 134.302 s <<< FAILURE! - in GmailLogin_All_TestCase.GmailLogin_Test
+LoginWithCorrectPhone_CorrecrPassword(GmailLogin_All_TestCase.GmailLogin_Test)  Time elapsed: 1.025 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <content class="CwaK9"> is not clickable at point (823,386) because another element <div class="ANuIbb IdAqtf"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-E5HOM5DE', ip: '10.111.96.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190328152334, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 3220, moz:profile: C:\Users\Shivangi\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db987a67-6f2e-4685-9e00-233e14438df1
+	at GmailLogin_All_TestCase.GmailLogin_Test.LoginWithCorrectPhone_CorrecrPassword(GmailLogin_Test.java:100)
 

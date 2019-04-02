@@ -9,12 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,211</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">133,616</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">GmailLogin_All_TestCase.GmailLogin_Test</td><td><a href="#m0">LoginWithCorrectPhone_CorrecrPassword</a></td><td rowspan="1">1554154367962</td><td rowspan="1">6378</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">GmailLogin_All_TestCase.GmailLogin_Test</td><td><a href="#m0">LoginWithCorrectPhone_CorrecrPassword</a></td><td rowspan="1">1554216973694</td><td rowspan="1">1018</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">GmailLogin_All_TestCase.GmailLogin_Test</td><td><a href="#m1">LoginWithCorrectEmail_CorrecrPassword</a></td><td rowspan="1">1554216955389</td><td rowspan="1">6156</td></tr><tr class="passedeven"><td><a href="#m2">LoginWithCorrectEmail_IncorrectPassword</a></td><td rowspan="1">1554216918313</td><td rowspan="1">6788</td></tr><tr class="passedeven"><td><a href="#m3">LoginWithCorrectPhone_IncorrectPassword</a></td><td rowspan="1">1554216936579</td><td rowspan="1">6710</td></tr><tr class="passedeven"><td><a href="#m4">LoginWithEmptyValue</a></td><td rowspan="1">1554216863426</td><td rowspan="1">836</td></tr><tr class="passedeven"><td><a href="#m5">LoginWithIncorrectEmail</a></td><td rowspan="1">1554216878417</td><td rowspan="1">849</td></tr><tr class="passedeven"><td><a href="#m6">LoginWithIncorrectPhone</a></td><td rowspan="1">1554216892902</td><td rowspan="1">887</td></tr><tr class="passedeven"><td><a href="#m7">LoginWithNotRegisteredPhone</a></td><td rowspan="1">1554216905512</td><td rowspan="1">918</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithCorrectPhone_CorrecrPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [https://accounts.google.com/signin/v2/sl/pwd?service=mail&amp;passive=true&amp;rm=false&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ss=1&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&amp;emr=1&amp;osid=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;cid=1&amp;navigationDirection=forward] but found [https://mail.google.com/mail/u/0/#inbox]
-	at GmailLogin_All_TestCase.GmailLogin_Test.LoginWithCorrectPhone_CorrecrPassword(GmailLogin_Test.java:101)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithCorrectPhone_CorrecrPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;content class=&quot;CwaK9&quot;&gt; is not clickable at point (823,386) because another element &lt;div class=&quot;ANuIbb IdAqtf&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-E5HOM5DE&apos;, ip: &apos;10.111.96.93&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190328152334, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 3220, moz:profile: C:\Users\Shivangi\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db987a67-6f2e-4685-9e00-233e14438df1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy4.click(Unknown Source)
+	at GmailLogin_All_TestCase.GmailLogin_Page.CorrectPwd(GmailLogin_Page.java:125)
+	at GmailLogin_All_TestCase.GmailLogin_Test.LoginWithCorrectPhone_CorrecrPassword(GmailLogin_Test.java:100)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithCorrectEmail_CorrecrPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithCorrectEmail_IncorrectPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithCorrectPhone_IncorrectPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithEmptyValue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithIncorrectEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithIncorrectPhone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">GmailLogin_All_TestCase.GmailLogin_Test#LoginWithNotRegisteredPhone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
